@@ -3,7 +3,7 @@
 ![Java](https://img.shields.io/badge/Java-17-orange)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.3.2-green)
 ![Angular](https://img.shields.io/badge/Angular-Latest-red)
-![Oracle](https://img.shields.io/badge/Oracle-XE-blue)
+![h2](https://img.shields.io/badge/H2-Database-blue) 
 
 Este projeto é uma aplicação fullstack para cadastro e listagem de pessoas, utilizando Java Spring Boot no backend e Angular no frontend.
 
@@ -35,11 +35,47 @@ Este projeto é uma aplicação fullstack para cadastro e listagem de pessoas, u
 
 ## 🔧 Configuração e Instalação
 
-### Backend (Spring Boot)
+### Frontend (Angular)
 
 1. Clone o repositório
-2. Navegue até a pasta do backend
-3. Configure o banco de dados no arquivo `application.properties`:
+2. npm install
+3. ng serve
+
+## 📦 Estrutura do Projeto
+cadastro-pessoas/
+│
+├── backend/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   │   └── com/example/demo/
+│   │   │   │       ├── controller/
+│   │   │   │       ├── model/
+│   │   │   │       ├── repository/
+│   │   │   │       └── DemoApplication.java
+│   │   │   └── resources/
+│   │   │       └── application.properties
+│   │   └── test/
+│   └── pom.xml
+│
+└── frontend/
+    ├── src/
+    │   ├── app/
+    │   │   ├── pessoa-cadastro/
+    │   │   ├── pessoa-lista/
+    │   │   ├── app.component.ts
+    │   │   ├── app.config.ts
+    │   │   └── pessoa.service.ts
+    │   ├── assets/
+    │   └── index.html
+    ├── angular.json
+    └── package.json
+
+## 🖥️ Uso
+
+Abra a aplicação no navegador: http://localhost:4200
+Use o formulário para cadastrar uma nova pessoa
+Clique em "Listar" para ver todas as pessoas cadastradas
 
 ##🤝 Contribuindo
 Contribuições são sempre bem-vindas! Siga estes passos:
