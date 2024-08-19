@@ -19,7 +19,7 @@ Este projeto é uma aplicação fullstack para cadastro e listagem de pessoas, u
 - Java 17
 - Spring Boot 3.3.2
 - Spring Data JPA
-- Oracle XE Database
+- H2 (Banco em memória)
 
 ### Frontend
 - Angular (versão mais recente)
@@ -31,7 +31,7 @@ Este projeto é uma aplicação fullstack para cadastro e listagem de pessoas, u
 - JDK 17
 - Node.js e npm
 - Angular CLI
-- Oracle XE Database
+- H2 (Banco em memória)
 
 ## 🔧 Configuração e Instalação
 
